@@ -1,1 +1,0 @@
-g++ -o raytrace -O3 *.cpp ../lodepng/lodepng.cpp
