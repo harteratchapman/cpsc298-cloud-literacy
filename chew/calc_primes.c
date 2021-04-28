@@ -41,8 +41,6 @@ int main(int argc, char **argv) {
         cur_number = 1;
     }
 
-    return -1;
-
     while (1)
     { 
         // start by assuming it's a prime
