@@ -13,23 +13,26 @@ int main(int argc, char **argv) {
     int cur_number;
     int is_prime;
 
-    printf("argc %d",argc);
 
     if (argc>2)
     {
-        printf("Error in usage:");
+        printf("Error in usage:\n");
         show_usage();
     }
     else if (argc==2)
     {
-        if (strcmp(argv[1],"-h"))
+        if (strcmp(argv[1],"-h")==0)
+        {
             show_usage();
+	    return 1;
+        }
     }
     else if (argc==1)
     {
         cur_number = 1;
     }
 
+    return -1;
 
     while (1)
     { 
