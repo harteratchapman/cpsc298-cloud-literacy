@@ -1,6 +1,15 @@
 #include <stdio.h>
 #include <string.h>
-
+/**
+ * @brief calculate prime numbers
+ * 
+ * This is just made to eat cpu cycles to verify usage statistics.
+ * 
+ * Written by William Wood Harter
+ * Free to use and public domain
+ * 
+ * @return int 
+ */
 int show_usage()
 {
     printf("Usage: calc_primes [starting num]\n");
